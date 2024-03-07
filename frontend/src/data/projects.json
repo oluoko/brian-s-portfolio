@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Stopwatch",
+    "imageSrc": "projects/stopwatch.png",
+    "description": "This is a project made to solidify and apply my understanding of Javascript. It is a simple stopwatch that can be paused, resumed and restarted.",
+    "skills": ["JavaScript", "HTML", "CSS"],
+    "demo": "https://oluoko.github.io/brian-otieno-stopwatch.com/",
+    "source": "https://github.com/oluoko/brian-otieno-stopwatch.com"
+  },
+  {
+    "title": "UCLA Dummy Website",
+    "imageSrc": "projects/ucla dummy website.png",
+    "description": "This is a simple dummy university portal. I made this to cement my understanding of the HTML DOM and pages. It is also a display of my understanding of CSS styling.",
+    "skills": ["HTML", "CSS"],
+    "demo": "https://oluoko.github.io/UCLA-dummy-website.com/",
+    "source": "https://github.com/oluoko/UCLA-dummy-website.com"
+  }
+]

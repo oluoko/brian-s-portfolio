@@ -1,0 +1,77 @@
+@import "../../index.css";
+
+.container {
+  color: var(--foreground-color);
+  margin-top: 120px;
+  background: var(--glass-gradient);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: var(--primary-border);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 58px 10%;
+  gap: 10px;
+  margin-left: 25%;
+  margin-right: 2%;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text h2 {
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.text p {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 26px;
+}
+
+a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 830px) {
+
+  .container {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .text h2 {
+    font-size: 40px;
+    letter-spacing: 3px;
+  }
+
+  .text p {
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+
+  a {
+    font-size: 25px;
+  }
+}

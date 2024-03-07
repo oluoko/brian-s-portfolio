@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.4s ease-in-out;
+  font-family: "Outfit", "Ubuntu", Arial, Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --background-color: #f6f6f6;
+  --foreground-color: #003cff;
+  --primary-text-color: #0a0a0a;
+  --secondary-text-color: #fff;
+  --toggle-bg: #f0eb9d;
+  --toggle-fg: #ffd000;
+  --gradient: linear-gradient(-90deg, #c4c7c9, #e1e7fb, #e0f9eb, #fdf5e7);
+  --primary-border: 1px solid rgba(0, 0, 0, 0.2);
+  --glass-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  --yellow: rgb(244, 181, 22);
+  /* --glass-gradient: linear-gradient(135deg, rgba(0,0,0,0.12), rgba(0,0,0,0)); */
+  /* --primary-box-shadow:; */
+}
+
+[data-theme="dark"] {
+  --background-color: #0a0a0a;
+  --foreground-color: #576aff;
+  --primary-text-color: #f6f6f6;
+  --secondary-text-color: #0a0a0a;
+  --toggle-bg: #283452;
+  --toggle-fg: #00a6ff;
+  --gradient: linear-gradient(-90deg, #2d2d2d, #1e2553, #302d2d, #293065);
+  --primary-border: 2px solid rgba(255, 255, 255, 0.1);
+  --glass-gradient: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
+  /* --yellow: rgb(244, 181, 22); */
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  /* Width of the scrollbar */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary-text-color);
+  border-radius: 6px;
+  cursor: pointer; /* Rounded corners of the handle */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--gradient);
+}

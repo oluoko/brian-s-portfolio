@@ -1,0 +1,14 @@
+[
+  {
+    "role": "Web Developer",
+    "organisation": "Geno Safaris",
+    "startDate": "January 2024",
+    "endDate": "Present",
+    "experiences": [
+      "Spear-head the building process of the official website for the tour company.",
+      "Worked on component library",
+      "Created the UI components"
+    ],
+    "imageSrc": "history/geno safaris.png"
+  }
+]
