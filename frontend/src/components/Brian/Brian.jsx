@@ -40,7 +40,7 @@ export const Brian = () => {
         </div>
       </div>
       <img
-        src={getImageUrl("Brian/heroImage.png")}
+        src={getImageUrl("Brian/brian-s gif.gif")}
         alt="An image of Brian, the creator."
         className={styles.brianImg}
       />
