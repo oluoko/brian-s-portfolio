@@ -15,7 +15,7 @@ const Logo = () => {
   }, []);
 
   return (
-    <a href="/" className="p-2 mt-4">
+    <a href="/" className="p-2 my-4 rounded-md">
       <div className="dsg-nav_wrapper flex flex-col items-center">
         <div className="logo-bar ">
           <div className="logo-text text-black text-xl font-bold">
@@ -23,7 +23,7 @@ const Logo = () => {
           </div>
         </div>
         <div className="rotate-wrap ">
-          <div className="rotating-text text-lg text-gray-600">
+          <div className="rotating-text text-sm text-gray-600">
             {texts[currentTextIndex]}
           </div>
         </div>

@@ -28,11 +28,10 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <h3>Full-stack Enthusiast</h3>
             <p>
-              Currently a third-year computer science student, I&apos;m
-              passionate about the endless possibilities of web development.
-              Whether it&apos;s implementing the latest front-end frameworks or
-              optimizing back-end performance, I&apos;m dedicated to creating
-              seamless digital experiences.
+              I&apos;m passionate about the endless possibilities of web
+              development. Whether it&apos;s implementing the latest front-end
+              frameworks or optimizing back-end performance, I&apos;m dedicated
+              to creating seamless digital experiences.
             </p>
           </li>
         </ul>

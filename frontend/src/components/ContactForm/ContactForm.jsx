@@ -84,26 +84,26 @@ const ContactForm = () => {
             </span>
           </label>
         </div>
-        <div className="mb-4">
+        <div className="mb-4 flex justify-between">
           <button
             type="submit"
             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
           >
             Submit
           </button>
+          <div className="text-center mt-4 flex flex-col justify-center items-center">
+            <p>Hate Contact forms?</p>
+            <p>
+              <a
+                href="mailto:brianotieno586@gmail.com"
+                className="text-sm text-blue-500 hover:underline"
+              >
+                my email
+              </a>
+            </p>
+          </div>
         </div>
       </form>
-      <div className="text-center mt-4">
-        <p>Hate Contact forms?</p>
-        <p>
-          <a
-            href="mailto:hello@steffen-hirth.de"
-            className="text-blue-500 hover:underline"
-          >
-            hello@steffen-hirth.de
-          </a>
-        </p>
-      </div>
     </div>
   );
 };
