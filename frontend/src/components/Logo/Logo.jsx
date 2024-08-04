@@ -15,7 +15,7 @@ const Logo = () => {
   }, []);
 
   return (
-    <a href="/" className="p-2 my-4 rounded-md border-primary-border ">
+    <a href="/" className="p-2 py-4 rounded-md border-primary-border ">
       <div className="dsg-nav_wrapper flex flex-col items-center">
         <div className="logo-bar ">
           <div className="logo-text text-black text-xl font-bold">

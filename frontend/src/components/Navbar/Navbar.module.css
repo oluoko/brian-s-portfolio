@@ -63,14 +63,22 @@
   .navbar {
     display: none;
     top: 5%;
-    transform: translateY(0%);
+    left: 7px;
+    transform: translateY(0);
     height: 55%;
-    width: 55%;
-    transition: all 1s ease;
+    width: 60%;
+    padding-left: 40px;
+    transition: all 3s ease;
+    transform: translate3d(0, -100%, 0) rotateX(90deg);
   }
 
-  .navbar:active {
-    transform: rotateX(360deg);
+  .menuOpen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    transform: translate3d(0, 0, 0) rotateX(0deg);
   }
 
   .title {
@@ -78,10 +86,6 @@
     padding-bottom: 25px;
     margin-top: 0;
     font-size: 28px;
-  }
-
-  .menu ul {
-    gap: 16px;
   }
 
   menu ul li {
@@ -116,13 +120,5 @@
     border: var(--primary-border);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     border-radius: 8px;
-  }
-
-  .menuOpen {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    z-index: 100;
   }
 }

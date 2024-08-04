@@ -17,7 +17,7 @@ export const Navbar = () => {
         )}
       </div>
       <nav
-        className={`${styles.navbar} ${styles.menuItems} ${
+        className={` ${styles.navbar} ${styles.menuItems} ${
           menuOpen && styles.menuOpen
         }`}
         onClick={() => {
