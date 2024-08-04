@@ -17,7 +17,7 @@ export const Brian = () => {
           target="_blank"
           rel="noreferrer"
         >
-          Contact Mee
+          Contact Me
         </a>
         <div className={styles.resumeContainer}>
           <a
