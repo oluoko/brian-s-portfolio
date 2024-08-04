@@ -1,10 +1,8 @@
-@import "../../index.css";
-
 .container {
   color: var(--primary-text-color);
   margin-top: 79px;
-  margin-left: 25%;
-  margin-right: 2%;
+  margin-left: 17%;
+  margin-right: 10.5%;
 }
 
 .title {
@@ -59,7 +57,7 @@
   flex-direction: column;
   align-items: center;
   gap: 17px;
-  background: var(--glass-gradient); 
+  background: var(--glass-gradient);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
@@ -102,7 +100,7 @@
   .title {
     font-size: 30px;
   }
-  
+
   .content {
     flex-direction: column-reverse;
     align-items: center;
