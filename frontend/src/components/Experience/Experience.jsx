@@ -9,9 +9,9 @@ import {
   FaNode,
   FaPython,
   FaReact,
-  FaUbuntu,
+  FaLinux,
 } from "react-icons/fa";
-import { RiTailwindCssFill } from "react-icons/ri";
+import { SiTailwindcss } from "react-icons/si";
 import { IoLogoCss3 } from "react-icons/io5";
 import { IoLogoJavascript } from "react-icons/io5";
 import { DiMongodb, DiMysql } from "react-icons/di";
@@ -49,6 +49,10 @@ export const Experience = () => {
             <p>JavaScript</p>
           </div>
           <div className={styles.skill}>
+            <FaLinux className={styles.skillIcon} />
+            <p>Linux</p>
+          </div>
+          <div className={styles.skill}>
             <DiMongodb className={styles.skillIcon} />
             <p>MongoDB</p>
           </div>
@@ -73,12 +77,8 @@ export const Experience = () => {
             <p>React</p>
           </div>
           <div className={styles.skill}>
-            <RiTailwindCssFill className={styles.skillIcon} />
+            <SiTailwindcss className={styles.skillIcon} />
             <p>Tailwind CSS</p>
-          </div>
-          <div className={styles.skill}>
-            <FaUbuntu className={styles.skillIcon} />
-            <p>Ubuntu</p>
           </div>
           <div className={styles.skill}>
             <TbBrandVscode className={styles.skillIcon} />
