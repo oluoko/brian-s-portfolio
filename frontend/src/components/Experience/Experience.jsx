@@ -11,6 +11,7 @@ import {
   FaReact,
   FaUbuntu,
 } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
 import { IoLogoCss3 } from "react-icons/io5";
 import { IoLogoJavascript } from "react-icons/io5";
 import { DiMongodb, DiMysql } from "react-icons/di";
@@ -70,6 +71,10 @@ export const Experience = () => {
           <div className={styles.skill}>
             <FaReact className={styles.skillIcon} />
             <p>React</p>
+          </div>
+          <div className={styles.skill}>
+            <RiTailwindCssFill className={styles.skillIcon} />
+            <p>Tailwind CSS</p>
           </div>
           <div className={styles.skill}>
             <FaUbuntu className={styles.skillIcon} />
