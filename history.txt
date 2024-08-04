@@ -1,0 +1,768 @@
+    1  sudo su
+    2  echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list\n
+    3  sudo apt update
+    4  sudo apt install brave-browser -y && sudo apt install vlc
+    5  reboot
+    6  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb\n
+    7  sudo apt install ./google-chrome-stable_current_amd64.deb\n
+    8  wget https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64 -O vscode.deb\n
+    9  sudo apt install vscode
+   10  sudo apt install qbittorrent -y\n
+   11  wget https://download.clipgrab.org/ClipGrab-3.8.15-x86_64.deb\n
+   12  sudo apt install ./ClipGrab-3.8.15-x86_64.deb\n
+   13  wget https://download.clipgrab.org/ClipGrab-3.8.15-x86_64.deb\n
+   14  sudo apt update\nsudo apt install anbox\n
+   15  sudo apt update\nsudo apt install software-properties-common -y\n
+   16  adb install path/to/gapps.apk\n
+   17  cd Downloads
+   18  ls
+   19  sudo dpkg -f install google-chrome-stable_current_amd64.deb
+   20  sudo dpkg -i google-chrome-stable_current_amd64.deb\n
+   21  ls
+   22  sudo dpkg -i code_1.91.0-1719861592_amd64.deb
+   23  sudo apt install mpv
+   24  sudo apt install git build-essential
+   25  git clone https://github.com/ujjwal96/xwinwrap.git
+   26  cd xwinwrap
+   27  make
+   28  sudo apt install libx11-dev libxext-dev libxrender-dev\n
+   29  gcc xwinwrap.c -g -Wall -L /usr/lib/x86_64-linux-gnu -lX11 -lXext -lXrender -o xwinwrap\n
+   30  make\nsudo make install\n
+   31  cd ..
+   32  cd Videos/Live\ Wallpapers
+   33  sudo cp 3.mp4 ~/
+   34  ls ~/
+   35  xwinwrap -ni -fs -s -st -sp -b -nf -- mpv --no-config --loop --wid WID ~/3.mp4\n
+   36  cd ..
+   37  cd Downloads
+   38  ls
+   39  cd xwinwrap
+   40  xwinwrap -ni -fs -s -st -sp -b -nf -- mpv --no-config --loop --wid WID ~/3.mp4\n
+   41  xwinwrap -ni -fs -s -st -sp -b -nf -- mpv --no-config --loop --wid=WID ~/3.mp4\n
+   42  sudo apt install gedit
+   43  gedit ~/set_video_bg.sh\n
+   44  chmod +x ~/set_video_bg.sh\n
+   45  xwinwrap -ni -fs -s -st -sp -b -nf -- mpv --no-config --loop --wid=WID ~/3.mp4\n
+   46  xwinwrap -ni -fs -s -st -sp -b -nf -- mpv --no-config --loop --wid WID --force-window=immediate --no-border ~/3.mp4\n
+   47  gedit ~/set_video_bg.sh\n
+   48  xwinwrap -ni -fs -s -st -sp -b -nf -- mpv --no-config --loop --wid WID --force-window=immediate --no-border ~/3.mp4\n
+   49  xwinwrap -ni -fs -s -st -sp -b -nf -- mpv --no-config --loop --wid=%WID% ~/3.mp4\n
+   50  xwinwrap -ni -fs -s -st -sp -b -nf -- vlc --video-wallpaper --no-audio --loop ~/3.mp4\n
+   51  gedit ~/set_video_bg.sh\n
+   52  set_video_bg.sh
+   53  ./set_video_bg.sh
+   54  sudo apt install krita
+   55  cd ..
+   56  ls
+   57  cd ..
+   58  ls
+   59  cd brian
+   60  cd Downloads
+   61  sudo chmod +x ClipGrab-3.9.10-x86_64.AppImage
+   62  ./ClipGrab-3.9.10-x86_64.AppImage
+   63  sudo apt-get install fuse\n
+   64  sudo apt-get update\n
+   65  sudo apt-get install -f\n
+   66  sudo apt-get install fuse\n
+   67  deb http://http.kali.org/kali kali-rolling main non-free contrib\n
+   68  sudo apt install deb
+   69  cd fuse-3.16.2
+   70  ls
+   71  cat README.md
+   72  cd Downloads/fuse-3.16.2
+   73  mkdir build 
+   74  cd build
+   75  meson setup
+   76  meson configure # list options
+   77  meson configure -D disable-mtab=true # set an option
+   78  ninja
+   79  sudo python3 -m pytest test/
+   80  sudo ninja install
+   81  sudo chmod +777 3.mp4
+   82  sudo apt-get install gimp\n
+   83  sudo apt-get install inkscape -y && sudo apt install audacious -6
+   84  sudo apt install gparted -y && sudo apt install audacious -y
+   85  sudo apt install gnome-tweaks
+   86  ls /usr/share/fonts/
+   87  cd Downloads
+   88  ls
+   89  cd fonts
+   90  ls
+   91  sudo cd Press_Start_2P/*.ttf candy-inc/*.ttf fredoka-one/*.ttf Rock_Salt/*.ttf christmas-on-crack/*.ttf oldgatelaneoutline/*.ttf agent-red/*.ttf freakshow/*.ttf permanent-marker/*.ttf /usr/share/fonts/
+   92  sudo cp Press_Start_2P/*.ttf candy-inc/*.ttf fredoka-one/*.ttf Rock_Salt/*.ttf christmas-on-crack/*.ttf oldgatelaneoutline/*.ttf agent-red/*.ttf freakshow/*.ttf permanent-marker/*.ttf /usr/share/fonts/
+   93  sudo cp Press_Start_2P/*.ttf fredoka-one/*.ttf Rock_Salt/*.ttf christmas-on-crack/*.ttf oldgatelaneoutline/*.ttf freakshow/*.ttf permanent-marker/*.ttf /usr/share/fonts/
+   94  ls /usr/share/fonts/
+   95  fc-cache -f -v\n
+   96  sudo apt-get install dconf-editor\n
+   97  ls /usr/share/fonts/
+   98  cd ..
+   99  sudo cp ~/.fonts/*.ttf /usr/share/fonts/truetype/\nsudo fc-cache -fv\n
+  100  ls /usr/share/fonts/truetype
+  101  sudo cp Press_Start_2P/*.ttf fredoka-one/*.ttf Rock_Salt/*.ttf christmas-on-crack/*.ttf oldgatelaneoutline/*.ttf freakshow/*.ttf permanent-marker/*.ttf /usr/share/fonts/truetype
+  102  cd fonts
+  103  sudo cp Press_Start_2P/*.ttf fredoka-one/*.ttf Rock_Salt/*.ttf christmas-on-crack/*.ttf oldgatelaneoutline/*.ttf freakshow/*.ttf permanent-marker/*.ttf /usr/share/fonts/truetype
+  104  sudo fc-cache fv
+  105  mkdir -p ~/custom_fonts
+  106  sudo cp Press_Start_2P/*.ttf fredoka-one/*.ttf Rock_Salt/*.ttf christmas-on-crack/*.ttf oldgatelaneoutline/*.ttf freakshow/*.ttf permanent-marker/*.ttf /usr~/custom_fonts
+  107  sudo cp Press_Start_2P/*.ttf fredoka-one/*.ttf Rock_Salt/*.ttf christmas-on-crack/*.ttf oldgatelaneoutline/*.ttf freakshow/*.ttf permanent-marker/*.ttf ~/custom_fonts
+  108  gedit ~/change_font.sh
+  109  chmod +x ~/change_font.sh
+  110  ~/change_font.sh PressStart2P-Regular.ttf 12\n
+  111  ~/change_font.sh FredokaOne-Regular.ttf\n
+  112  sudo apt-get install kdenlive -y && sudo apt install openshot -y && sudo apt install shotcut -y&& ^[[200~sudo apt-get install blender
+  113  sudo apt-get install kdenlive -y && sudo apt install openshot -y && sudo apt install shotcut -y && sudo apt-get install blender -y
+  114  sudo apt install shotcut -y && sudo apt-get install blender -y
+  115  sudo apt-get install blender\n
+  116  python main.py
+  117  python3 main.py
+  118  python3 Main.py
+  119  python3 demo.python
+  120  vlc
+  121  sudo apt install libreoffice
+  122  sudo apt install simplescreenrecorder
+  123  cd Downloads
+  124  ls
+  125  unzip Ubuntu.zip
+  126  ls
+  127  cp Ubuntu/*.ttf /usr/share/fonts
+  128  sudo cp Ubuntu/*.ttf /usr/share/fonts
+  129  sudo fc-cache fv
+  130  history >> history.txt
+  131  gedit history.txt
+  132  sudo -rf ~/change_font.sh
+  133  sudo rm -rf ~/change_font.sh
+  134  locate press
+  135  locate press > history.txt
+  136  gedit history.txt
+  137  locate press*.ttf
+  138  locate font
+  139  locate font > history.txt
+  140  gedit history.txt
+  141  sudo apt install -y curl software-properties-common\n
+  142  git clone https://github.com/ujjwal96/xwinwrap.git
+  143  git clone https://github.com/oluoko/annabelle-mitumba-bales.git\n
+  144  curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -\n
+  145  sudo apt install -y nodejs\n
+  146  node 0v
+  147  npm -v
+  148  node -v
+  149  clar
+  150  clear
+  151  sudo apt install rsync -y && sudo apt install pv -y && sudo apt install parallel -y
+  152  gnome-terminal
+  153  yeahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhp
+  154  libreoffice base
+  155  libreoffice-base
+  156  libreoffice
+  157  vlc
+  158  thunar
+  159  thunar Documents
+  160  base
+  161  gedit libreoffice
+  162  locate libreoffice/base
+  163  locate libreoffice
+  164  locate libreoffice*base
+  165  locate base*libreoffice
+  166  gedit libreoffice >> finding\ Libreoffice\ Base.txt
+  167  gedit finding\ Libreoffice\ Base.txt
+  168  locate libreoffice >> finding\ Libreoffice\ Base.txt
+  169  gedit finding\ Libreoffice\ Base.txt
+  170  systemctl start bluetooth
+  171  clipman restore
+  172  clipman
+  173  clipman store
+  174  sudo apt-get install mdbtools\n
+  175  sudo apt-get install clipman\n
+  176  clipman
+  177  restore
+  178  ls Music
+  179  vlc Music/you\ arrive\ in\ another\ dimension
+  180  cwd
+  181  pwd
+  182  gedit celebrate-come-on
+  183  sudo chmod +x celebrate-come-on
+  184  mv celebrate-come-on /usr/bin/local/
+  185  sudo mv celebrate-come-on /usr/bin/local/
+  186  sudo mv celebrate-come-on usr/bin/local/
+  187  sudo mv celebrate-come-on /usr/bin/local
+  188  celebrate-come-on
+  189  cd usr/
+  190  cd /usr
+  191  ls
+  192  cd /bin
+  193  ls
+  194  /
+  195  cd local
+  196  cd ..
+  197  ls
+  198  cd ..
+  199  cd /usr/local/bin
+  200  ls
+  201  cd ..
+  202  ls
+  203  cd /home/brian
+  204  ls
+  205  locate celebrate-come-on
+  206  cd /usr/bin/local
+  207  sudo mv celebrate-come-on /usr/bin/local
+  208  cd /usr/bin/local
+  209  sudo pwd >> /usr/local/bin/celebrate-come-on
+  210  pwd cat
+  211  pwd
+  212  pwd >> /usr/local/bin/celebrate-come-on && sudo chmod +x /usr/local/bin/celebrate-come-on && sudo gedit /usr/local/bin/celebrate-come-on
+  213  sudo pwd >> /usr/local/bin/celebrate-come-on && sudo chmod +x /usr/local/bin/celebrate-come-on && sudo gedit /usr/local/bin/celebrate-come-on
+  214  sudo pwd >> /usr/local/bin/celebrate-come-on 
+  215  cd /usr/local/bin
+  216  ls
+  217  sudo gedit celebrate-come-one
+  218  sudo gedit celebrate-come-on
+  219  pwd
+  220  cd /home/brian
+  221  celebrate-come-on
+  222  sudo celebrate-come-on
+  223  gedit /usr/local/bin/celebrate-come-on
+  224  cd /usr/local/bin
+  225  l
+  226  gedit celebrate-come-on
+  227  rm celebrate-come-on
+  228  sudo rm celebrate-come-on
+  229  sudo gedit celebrate-come-on
+  230  sudo chmod +x celebrate-come-on
+  231  sudo chmod +777 celebrate-come-on
+  232  cd home/brian
+  233  cd ..
+  234  cd home/brian
+  235  celebrate-come-on
+  236  sudo apt install feh
+  237  celebrate-come-on
+  238  sudo gedit celebrate-come-on
+  239  ls
+  240  ls /usr/local/bin
+  241  gedit /usr/local/bin/celebrate-come-on
+  242  celebrate-come-on
+  243  vlc Music/i\ will\ go\ to\ bed\ early\ tonight
+  244  thunar Music/i\ will\ go\ to\ bed\ early\ tonight
+  245  thunar
+  246  vlc i\ need\ this\ to\ be\ louder
+  247  sudo chmod +777 *
+  248  sudo apt install snapd -y && sudo apt install blender -y && sudo apt install spotify-client -y && sudo apt install core -y
+  249  sudo apt install spotify-client -y && sudo apt install core -y
+  250  sudo apt install core -y
+  251  sudo snap install core -y  && sudo snap install blender --classic\n
+  252  sudo snap install core  && sudo snap install blender --classic\n
+  253  curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add -\n
+  254  echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list\n
+  255  sudo apt update\nsudo apt install spotify-client\n
+  256  sudo apt install flatpak\n
+  257  sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo\n
+  258  sudo flatpak install flathub com.spotify.Client\n
+  259  wget https://dl.pstmn.io/download/latest/linux64 -O postman-linux.tar.gz\n
+  260  sudo apt update\nsudo apt install doublecmd-gtk\n
+  261  xinput list\n
+  262  xinput disable 10\n
+  263  sudo mkdir -p /etc/X11/xorg.conf.d/\n
+  264  sudo gedit /etc/X11/xorg.conf.d/99-touchscreen.conf\n
+  265  sudo apt update \nsudo apt install gnome-tweaks gnome-shell-extensions\n
+  266  sudo snap install spotify
+  267  curl -sS https://download.spotify.com/debian/pubkey_6224F9941A8AA6D1.gpg | sudo gpg --dearmor --yes -o /etc/apt/trusted.gpg.d/spotify.gpg\necho "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+  268  curl -sS https://download.spotify.com/debian/pubkey_6224F9941A8AA6D1.gpg | sudo gpg --dearmor --yes -o /etc/apt/trusted.gpg.d/spotify.gpg\n
+  269  echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list\n
+  270  sudo apt update\n
+  271  sudo apt upgrade
+  272  sudo apt-get install spotify-client
+  273  sudo apt update\nsudo apt install mdbtools\n
+  274  vlc --fullscreen --random Music/i\ need\ this\ to\ be\ louder/
+  275  vlc --loop --fullscreen Videos/everyday/
+  276  sudo rm -f vlcHelpCommands.txt
+  277  sudo mv *-git-commit /usr/local/bin/
+  278  ls /usr/local/bin
+  279  sudo gedit /usr/local/bin/emesa-website-git-commit
+  280  sudo mv Desktop/bin/sticky_notes /usr/local/bin
+  281  sudo rm -f Desktop/bin
+  282  sudo rm -rf Desktop/bin
+  283  cd Desktop
+  284  ls
+  285  sudo rm -rf npm npmx
+  286  sudo rm -rf npm npx
+  287  ls
+  288  ls Downloads
+  289  vlc --fullscreen Videos/Cocomelon
+  290  vlc --fullscreen --randomize Videos/Cocomelon
+  291  vlc --help
+  292  vlc --help >> vlcHelpCommands.txt
+  293  gedit vlcHelpCommands.txt
+  294  vlc --fullscreen --random Videos/Cocomelon
+  295  vlc --playlist-autostart --playlist-tree --playlist-sort=title --fullscreen Videos/everyday/
+  296  gedit vlcHelpCommands.txt
+  297  sudo apt update\nsudo apt install mdbtools\n
+  298  sudo apt update\nsudo apt install libreoffice-base odbc-mdbtools\n
+  299  cd Desktop/Projects/
+  300  ls
+  301  mkdir emesa-research-and-consultancy-website
+  302  cd emesa-research-and-consultancy-website
+  303  echo "# emesa-research-and-consultancy-website" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/oluoko/emesa-research-and-consultancy-website.git\ngit push -u origin main
+  304  reboot
+  305  ls >> i\ going\ to\ bed\ early\ tonight.txt
+  306  sudo apt install openshot
+  307  sudo apt update
+  308  sudo apt install openshot
+  309  wget https://github.com/OpenShot/openshot-qt/releases/download/v3.0.0/OpenShot-v3.0.0-x86_64.AppImage\n
+  310  chmod +x OpenShot-v3.0.0-x86_64.AppImage
+  311  ./OpenShot-v3.0.0-x86_64.AppImage
+  312  sudo apt update\nsudo apt install fuse\n
+  313  sudo apt upgrade
+  314  sudo apt update\nsudo apt install fuse\n
+  315  sudo apt --fix-broken-install
+  316  sudo apt --fix-broken install
+  317  sudo apt install fuse
+  318  cd Projects/emesa-research-and-consultancy-website
+  319  echo "# emesa-research-and-consultancy-website" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/oluoko/emesa-research-and-consultancy-website.git\ngit push -u origin main
+  320  git remote remove origin\ngit remote add origin https://github.com/oluoko/emesa-research-and-consultancy-website.git\n
+  321  git config --global credential.helper store\n
+  322  # Remove the existing remote\ngit remote remove origin\n\n# Add the new remote\ngit remote add origin https://github.com/oluoko/emesa-research-and-consultancy-website.git\n\n# Push the code to the remote repository\ngit push -u origin main\n
+  323  npm init -y
+  324  npm install express mongoose\n
+  325  emesa-website-git-commit
+  326  npm install express mongoose\n
+  327  emesa-website-git-commit
+  328  npx create-react-app client\n
+  329  npx create-react-app frontend
+  330  npm start
+  331  npm install concurrently
+  332  npm start
+  333  emesa-website-git-commit
+  334  cd Projects/emesa-research-and-consultancy-website
+  335  emesa-website-git-commit
+  336  npx create-react-app client
+  337  npm start
+  338  emesa-website-git-commit "Front-end setup"
+  339  cd client
+  340  npm install react-router-dom\n
+  341  cd ..
+  342  emesa-website-git-commit
+  343  cd Projects/emesa-research-and-consultancy-website/client
+  344  npm install -D tailwindcss postcss autoprefixer\nnpx tailwindcss init -p\n
+  345  npm start
+  346  cd Projects/emesa-research-and-consultancy-website
+  347  cd Projects/emesa-research-and-consultancy-website/client
+  348  npm start
+  349  cd Projects/emesa-research-and-consultancy-website
+  350  emesa-website-git-commit
+  351  gedit cake.txt
+  352  cd emesa-research-and-consultancy-website
+  353  npm start
+  354  cd emesa-research-and-consultancy-website
+  355  emesa-website-git-commit
+  356  cd emesa-research-and-consultancy-website/client
+  357  npm install react-image-gallery react-dropzone\n
+  358  ls -la
+  359  sudo rm -rf riciclo\ banner.jpeg~ riciclo\ banner.kra~ riciclo\ logo.kra~ riciclo\ logo.png.kra\~ riciclo\ r.psd\~
+  360  ls -la
+  361  emesa-website-git-commit
+  362  npm start
+  363  npm start
+  364  npm install react-modal\n
+  365  lsblk
+  366  gedit Documents/Recipes/Brownies.txt
+  367  emesa-website-git-commit
+  368  npx create-react-app blog
+  369  npx create-react-app careers
+  370  npm start
+  371  lsblk
+  372  sudo apt install unrar-free
+  373  sudo apt install rar unrar
+  374  cd iso\ files
+  375  rar a Windows10.rar Win10_22H2_English_x64v1.iso
+  376  gedit ~/.Xmodmap
+  377  xmodmap ~/.Xmodmap\n
+  378  sudo rm -rf ~/.Xmodmap
+  379  sudo showkey\n
+  380  sudo apt update\nsudo apt upgrade\n~
+  381  sudo apt install --reinstall keyboard-configuration\n
+  382  sudo showkey\n
+  383  cd Blitz_tid_bits.___
+  384  Blitz_-_tid_bits-git-commit
+  385  cd Blitz_tid_bits.___
+  386  Blitz_-_tid_bits-git-commit
+  387  cd ..
+  388  cd emesa-research-and-consultancy-website
+  389  npm start
+  390  lsblk
+  391  cd emesa-research-and-consultancy-website
+  392  npm start
+  393  emesa-website-git-commit
+  394  cd blog
+  395  ls
+  396  npm install -D tailwindcss postcss autoprefixer\nnpx tailwindcss init -p\n
+  397  cd ..
+  398  cd careers
+  399  npm install -D tailwindcss postcss autoprefixer\nnpx tailwindcss init -p\n
+  400  cd ..
+  401  npm start
+  402  cd Blitz_tid_bits.___
+  403  Blitz_-_tid_bits-git-commit
+  404  cd emesa-research-and-consultancy-website
+  405  npm start
+  406  cd ..
+  407  cd brian-s-portfolio
+  408  ls
+  409  cd frontend
+  410  npm start
+  411  npm run dev
+  412  npm install vite\n
+  413  gedit renames.txt
+  414  cd Downloads
+  415  sudo dpkg -i mongodb-compass_1.43.4_amd64.deb
+  416  wget https://dl.pstmn.io/download/latest/linux64 -O postman-linux.tar.gz\n
+  417  cd ..
+  418  cd Music
+  419  cd i\ need\ this\ to\ be\ louder
+  420  gedit renames.txt
+  421  cd ..
+  422  cd Downloads
+  423  ls
+  424  tar -xzf postman-linux.tar.gz -C /opt\n
+  425  ls /opt
+  426  sudo mv postman-linux /opt
+  427  ls /opt/postman-linux/Postman
+  428  sudo ln -s /opt/postman-linux/Postman/Postman /usr/bin/postman\n
+  429  sudo gedit /usr/share/applications/postman.desktop\n
+  430  postman
+  431  sudo apt update\nsudo apt install diodon\n
+  432  cd moi-university-portal-chatbox
+  433  cd frontend
+  434  npm run dev
+  435  cd moi-university-portal-chatbox
+  436  cd backend
+  437  npm start
+  438  cd ..
+  439  cd moi-university-portal-chatbox
+  440  cd backend
+  441  npm start
+  442  cd brian-s-portfolio
+  443  cd frontend
+  444  npm run dev
+  445  sudo apt update\nsudo apt install xfce4-clipman\n
+  446  sudo apt upgrade
+  447  reboot
+  448  sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt autoremove -y\n
+  449  gedit ~/.bashrc
+  450  source ~/.bashrc\n
+  451  updateall
+  452  source ~/.bashrc\n
+  453  gedit ~/.bashrc
+  454  cd /usr/local/bin
+  455  ls
+  456  gedit emesa-website-git-commit updateall
+  457  sudo gedit emesa-website-git-commit updateall
+  458  sudo chmod +x updateall
+  459  cd ..
+  460  ls
+  461  cd home/brian
+  462  updateall
+  463  cd moi-university-portal-chatbox/backend
+  464  npm i cors
+  465  cd moi-university-portal-chatbox
+  466  cd backend
+  467  npm install
+  468  npm i colors
+  469  npm start
+  470  cd moi-university-portal-chatbox/frontend
+  471  npm run dev
+  472  cd Desktop/Projects/moi-university-portal-chatbox/
+  473  .code
+  474  code
+  475  cd ..
+  476  code moi-university-portal-chatbox
+  477  updateall
+  478  reboot
+  479  cd Desktop/Projects/
+  480  mkdir moi-portal-chatbox
+  481  echo "# 1" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/oluoko/moi-portal-chatbox.git\ngit push -u origin main
+  482  sudo gedit /usr/local/bin/emesa-website-git-commit /usr/local/bin/moi-portal-chatbox-git-commit
+  483  sudo chmod +x /usr/local/bin/moi-portal-chatbox-git-commit
+  484  npm init
+  485  npm i express mongoose concurrently nodemon colors cors
+  486  ls
+  487  sudo rm -rf README.md package.json
+  488  cd moi-portal-chatbox
+  489  ls
+  490  echo "# 1" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/oluoko/moi-portal-chatbox.git\ngit push -u origin main
+  491  git pull origin main --rebase\n
+  492  \ngit init\ngit add README.md\ngit commit -m "moi-portal-chatbox: second commit"\ngit branch -M main\ngit remote add origin https://github.com/oluoko/moi-portal-chatbox.git\ngit push -u origin main
+  493  git checkout main\n
+  494  git checkout -b main\n
+  495  git fetch origin\n
+  496  git rebase origin/main\n
+  497  git status\n
+  498  moi-portal-chatbox-git-commit
+  499  npm init
+  500  npm i express mongoose concurrently nodemon colors cors
+  501  npm i express mongoose concurrently nodemon colors cors bcryptjs cookie-parser dotenv jsonwebtoken multer markdown-toc
+  502  npm audit fix
+  503  ls -la
+  504  sudo gedit /usr/local/bin/backend-deps-npm-install
+  505  sudo chmod +x /usr/local/bin/backend-deps-npm-install
+  506  backend-deps-npm-install
+  507  ls
+  508  cd backend
+  509  backend-deps-npm-install
+  510  npm fund
+  511  npm audit
+  512  npm audit fix
+  513  npm update\n
+  514  npm install lodash.template@latest\nnpm install gulp-header@latest
+  515  npm audit\n
+  516  npm audit fix --force
+  517  npm audit fix
+  518  npm install vinyl ansi-colors date-format fancy-log minimist beeper through2\n
+  519  cd ..
+  520  npx create-react-app frontend
+  521  sudo gedit /usr/local/bin/backend-deps-npm-install /usr/local/bin/frontend-deps-npm-install
+  522  sudo chmod +x /usr/local/bin/frontend-deps-npm-install
+  523  cd frontend
+  524  frontend-deps-npm-install
+  525  cd ..
+  526  code moi-portal-chatbox
+  527  cd ..
+  528  code proshop-v2-main
+  529  code Desktop/Projects/moi-university-portal-chatbox
+  530  code Desktop/Projects/
+  531  systemctl start bluetooth
+  532  sudo gedit /usr/local/bin/backend-deps-npm-install /usr/local/bin/frontend-deps-npm-install
+  533  moi-portal-chatbox-git-commit
+  534  cd frontend
+  535  npm install socket.io\nnpm install socket.io-client\n
+  536  npm run dev
+  537  cd backend
+  538  npm install socket.io\nnpm install socket.io-client\n
+  539  npm start
+  540  moi-portal-chatbox-git-commit
+  541  cd backend
+  542  npm install moment-timezone\n
+  543  cd ..
+  544  moi-portal-chatbox-git-commit
+  545  cd frontend
+  546  npm install react-spinners\n
+  547  cd ..
+  548  moi-portal-chatbox-git-commit
+  549  code Desktop/Projects/emesa-research-and-consultancy-website
+  550  code Desktop/Projects/moi-university-portal-chatbox
+  551  moi-portal-chatbox-git-commit
+  552  npm start
+  553  npm run dev
+  554  moi-portal-chatbox-git-commit
+  555  cd frontend
+  556  npm run dev
+  557  cd backend
+  558  npm start
+  559  code Desktop/Projects/Blitz_tid_bits.___
+  560  code Desktop/Projects/emesa-research-and-consultancy-website
+  561  sudo apt-get update\nsudo apt-get upgrade openssl\n
+  562  code Desktop/proshop-v2-main/
+  563  sudo gedit /usr/local/bin/backend-deps-npm-install /usr/local/bin/frontend-deps-npm-install
+  564  cd backend
+  565  backend-deps-npm-install
+  566  mkdir backend
+  567  backend-deps-npm-install
+  568  cd backend
+  569  backend-deps-npm-install
+  570  cd ..
+  571  emesa-website-git-commit
+  572  cd backend
+  573  npm install mongodb
+  574  npm init
+  575  cd ..
+  576  npm init
+  577  backend-deps-npm-install
+  578  emesa-website-git-commit
+  579  git fetch origin\n
+  580  git merge origin/main\n
+  581  git add .
+  582  git commit -m "Resolved merge conflicts"\n
+  583  git push origin main\n
+  584  emesa-website-git-commit
+  585  backend-deps-npm-install
+  586  npm audit
+  587  npm audit fix
+  588  mkdir backend
+  589  npm start
+  590  npm run dev
+  591  emesa-website-git-commit
+  592  cd frontend
+  593  npm install @material-tailwind/react\n
+  594  cd ..
+  595  cd blog
+  596  npm install @material-tailwind/react\n
+  597  cd emesa-research-and-consultancy-website
+  598  emesa-website-git-commit
+  599  code Desktop/Projects
+  600  code Desktop/Projects/Blitz_tid_bits.___
+  601  Blitz_-_tid_bits-git-commit
+  602  git config --global user.name "oluoko"
+  603  git config --global user.email "brianotieno586@gmail.com"
+  604  git commit --amend --reset-author
+  605  Blitz_-_tid_bits-git-commit
+  606  code mern-blog-app-main
+  607  gedit mern-blog-app-main/README.md
+  608  open  mern-blog-app-main/README.md
+  609  code Desktop/Projects/emesa-research-and-consultancy-website
+  610  sudo gedit /usr/local/bin/backend-deps-npm-install /usr/local/bin/frontend-deps-npm-install
+  611  code Desktop/Projects/emesa-research-and-consultancy-website
+  612  sudo gedit /usr/local/bin/backend-deps-npm-install /usr/local/bin/frontend-deps-npm-install
+  613  cd careers
+  614  npm start
+  615  code Desktop/Projects/Blitz_tid_bits.___
+  616  cd /usr/local/bin
+  617  ls
+  618  sudo gedit fox-game-git-commit my-journal-git-commit
+  619  sudo rm -rf fox-game-git-commit
+  620  sudo chmod +x my-journal-git-commit
+  621  clear
+  622  Blitz_-_tid_bits-git-commit
+  623  mkdir Desktop/Project/My\ Journal
+  624  cd Desktop/Projects/
+  625  mkdir My\ Journal
+  626  cd My\ Journal
+  627  npm init
+  628  cd ..
+  629  cd my-journal
+  630  backend-deps-npm-install
+  631  npx create-react-app frontend
+  632  mkdir .gitinore
+  633  ls
+  634  sudo rm -rf .gitinore
+  635  gedit .gitinore
+  636  ls
+  637  echo "# my-journal" >> README.md\ngit init\ngit add README.md\ngit commit -m "Mu Journal"\ngit branch -M main\ngit remote add origin https://github.com/oluoko/my-journal.git\ngit push -u origin main
+  638  cd ..
+  639  code my-journal
+  640  cd my-journal
+  641  echo "# my-journal" >> README.md\ngit init\ngit add README.md\ngit commit -m "Mu Journal"\ngit branch -M main\ngit remote add origin https://github.com/oluoko/my-journal.git\ngit push -u origin main
+  642  my-journal-git-commit
+  643  cd frontend
+  644  frontend-deps-npm-install
+  645  cd ..
+  646  my-journal-git-commit
+  647  npm start
+  648  npm run server
+  649  npm install colors
+  650  npm run server
+  651  my-journal-git-commit
+  652  backend-deps-npm-install
+  653  my-journal-git-commit
+  654  git pull origin main\n
+  655  git add <file_with_conflict>\n
+  656  git add .\n
+  657  git commit -m "Resolved merge conflicts"\n
+  658  my-journal-git-commit
+  659  npm run server
+  660  npm run frontend
+  661  my-journal-git-commit
+  662  cd frontend
+  663  npm install -D tailwindcss\nnpx tailwindcss init\n
+  664  cd ..
+  665  my-journal-git-commit
+  666  my-journal-git-commit "index.css"
+  667  my-journal-git-commit "Removing Uncessary files from the frontedn"
+  668  my-journal-git-commit "frontend/src/Components/NavBar.jsx"
+  669  my-journal-git-commit "frontend/src/Components/Screens/HomeScreen.jsx"
+  670  my-journal-git-commit "frontend/src/Components/Journal.jsx"
+  671  my-journal-git-commit "frontend/src/App.jsx"
+  672  my-journal-git-commit
+  673  cd frontend
+  674  npm install tailwindcss\n
+  675  npm audit fix --force
+  676  sudo rm -rf node_modules
+  677  npm install
+  678  npm uninstall tailwind\n
+  679  npm install tailwindcss postcss autoprefixer\n
+  680  cd ..
+  681  npm run frontend
+  682  npm install react-scripts@latest\n
+  683  cd frontend
+  684  npm install react-scripts@latest\n
+  685  npm start
+  686  code Desktop/Projects/emesa-research-and-consultancy-website
+  687  export NODE_OPTIONS=--openssl-legacy-provider
+  688  code Blog-Website-MERN-master
+  689  cd Desktop/Templates/app\ templates
+  690  code Blog-Website-MERN-master
+  691  cd Downloads
+  692  ls
+  693  cd atlas-app-services-cli_linux_x64
+  694  ls
+  695  chmod +x appservices\n
+  696  sudo mv appservices /usr/local/bin/\n
+  697  appservices --version\n
+  698  cd Downloads
+  699  sudo dpkg -i mongodb-compass_1.43.5_amd64.deb
+  700  cd blog
+  701  npm start
+  702  cd ..
+  703  emesa-website-git-commit
+  704  git filter-branch --force --index-filter \\n'git rm --cached --ignore-unmatch blog/src/config/defaults.js' \\n--prune-empty --tag-name-filter cat -- --all\n
+  705  bfg --delete-files blog/src/config/defaults.js\n
+  706  git push --force origin main\n
+  707  emesa-website-git-commit
+  708  cd blog
+  709  npm start
+  710  npm run server
+  711  npm server
+  712  cd ..
+  713  npm run server
+  714  cd frontend
+  715  sudo rm -rf node_modules
+  716  cd .
+  717  cd ..
+  718  cd blog
+  719  sudo rm -rf node_modules
+  720  npm install
+  721  ls 
+  722  npm install
+  723  npm start
+  724  code Desktop/Projects
+  725  cd brian-s-portfolio
+  726  cd frontend
+  727  npm start
+  728  cd ..
+  729  npm i concurrently
+  730  npm frontend
+  731  npm run frontend
+  732  npm start
+  733  cd /usr/local/bin
+  734  ls
+  735  brian-otieno-portfolio-git-commit
+  736  cd /home/brian/Desktop/Projects
+  737  ls
+  738  cd /usr/local/bin
+  739  sudo gedit fox-game-git-commit brian-s-portfolio-git-commit
+  740  sudo gedit emesa-website-git-commit brian-s-portfolio-git-commit
+  741  sudo chmod +x brian-s-portfolio-git-commit
+  742  cd /home/brian/Desktop/Projects/brian-s-portfolio
+  743  brian-s-portfolio-git-commit
+  744  echo "# brian-s-portfolio" >> README.md\ngit init\ngit add README.md\ngit commit -m "Brian's Portfolio, reinitialization."\ngit branch -M main\ngit remote add origin https://github.com/oluoko/brian-s-portfolio.git\ngit push -u origin main
+  745  brian-s-portfolio-git-commit "frontend - Blog.jsx"
+  746  git pull origin main\n
+  747  git add .\ngit commit\n
+  748  git push origin main\n
+  749  git pull origin main\n
+  750  git config pull.rebase false\n
+  751  git config --global pull.rebase false\n
+  752  git pull origin main\n
+  753  # Open the conflicting files in your editor and resolve the conflicts\ngit add .\ngit commit\n
+  754  git push origin main\n
+  755  git config pull.rebase false\n
+  756  git pull origin main\n
+  757  git add frontend/src/components/Blog/Blog.jsx\ngit commit -m "frontend/src/components/Blog/Blog.jsx"\n
+  758  git pull origin main\n
+  759  git add .\ngit commit\n
+  760  git push origin main\n
+  761  git stash\n
+  762  brian-s-portfolio-git-commit "frontend - Blog.jsx"
+  763  brian-s-portfolio-git-commit
+  764  cd frontend
+  765  npm i react-router-dom
+  766  brian-s-portfolio-git-commit
+  767  cd ..
+  768  brian-s-portfolio-git-commit
