@@ -7,8 +7,12 @@ export const Brian = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hello, I&apos;m Brian Otieno.</h1>
         <p className={styles.description}>
-          A software developer with a passion for building web applications.
-          Currently working as a full-stack developer.
+          I am a dedicated software developer with a passion for creating
+          dynamic and efficient web applications. With a solid background in
+          full-stack development, mainly using the MERN stack, I specialize in
+          both front-end and back-end technologies to ensure seamless and robust
+          solutions. Currently, I am honing my skills as a full-stack developer,
+          continuously striving to innovate and enhance the user experience.
         </p>
       </div>
       <img
