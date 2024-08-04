@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&family=Poppins:wght@500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +14,10 @@
 }
 
 :root {
+  --patrick-hand: "Patrick Hand", cursive;
+  --indie-flower: "Indie Flower", cursive;
+  --poppins: "Poppins", sans-serif;
+
   --background-color: #f6f6f6;
   --foreground-color: #003cff;
   --primary-text-color: #0a0a0a;
