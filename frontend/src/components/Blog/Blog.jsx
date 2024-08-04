@@ -10,9 +10,11 @@ const Blog = () => {
   };
 
   return (
-    <div className="blog">
+    <div id="blog">
       <img src={isMobile() ? imgPhone : imgLaptop} alt="Minions" />
-      <Link to="/">Home</Link>
+      <Link className="link" to="/">
+        Home
+      </Link>
       <div>UNDER CONSTRUCTION</div>
     </div>
   );
