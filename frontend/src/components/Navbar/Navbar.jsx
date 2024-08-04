@@ -31,31 +31,26 @@ export const Navbar = () => {
         <div className={styles.menu}>
           <ul>
             <li>
-              <IoPerson className={styles.navbarIcon} />
               <a className={styles.navbarLink} href="#about">
                 About
               </a>
             </li>
             <li>
-              <FaTools className={styles.navbarIcon} />
               <Link className={styles.navbarLink} to="/blog">
                 Blog
               </Link>
             </li>
             <li>
-              <FaTools className={styles.navbarIcon} />
               <a className={styles.navbarLink} href="#experience">
                 Experience
               </a>
             </li>
             <li>
-              <FaRegFolderOpen className={styles.navbarIcon} />
               <a className={styles.navbarLink} href="#projects">
                 Projects
               </a>
             </li>
             <li>
-              <FaPhone className={styles.navbarIcon} />
               <a className={styles.navbarLink} href="#contact">
                 Contact
               </a>
