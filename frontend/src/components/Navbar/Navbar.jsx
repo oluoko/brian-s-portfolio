@@ -52,7 +52,6 @@ export const Navbar = () => {
                 Contact
               </a>
             </li>
-            <li></li>
           </ul>
         </div>
       </nav>
