@@ -2,9 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "./Navbar.module.css";
 import { LiaTimesSolid } from "react-icons/lia";
-import { IoMenu, IoPerson } from "react-icons/io5";
-import { FaPhone, FaRegFolderOpen } from "react-icons/fa6";
-import { FaTools } from "react-icons/fa";
+import { IoMenu } from "react-icons/io5";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
