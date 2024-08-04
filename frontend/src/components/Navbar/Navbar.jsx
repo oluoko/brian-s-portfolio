@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import styles from "./Navbar.module.css";
 import { LiaTimesSolid } from "react-icons/lia";
 import { IoMenu } from "react-icons/io5";
+import Logo from "../Logo/Logo";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -23,9 +24,7 @@ export const Navbar = () => {
           setMenuOpen(false);
         }}
       >
-        <a className={styles.title} href="/">
-          Home
-        </a>
+        <Logo />
         <div className={styles.menu}>
           <ul>
             <li>
