@@ -51,7 +51,8 @@
 
 .menu ul li a:hover,
 .menu ul li a:active {
-  border-bottom: solid 2px var(--primary-text-color);
+  color: var(--yellow);
+  border-bottom: solid 2px var(--yellow);
 }
 
 @media screen and (max-width: 830px) {

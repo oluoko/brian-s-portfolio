@@ -4,12 +4,13 @@
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  background: var(--glass-gradient); 
+  background: var(--glass-gradient);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-  padding: 18px 24px;
-  max-width: 345px;
+  padding: 15px 20px;
+  max-width: 250px;
+  min-height: 75vh;
 }
 
 .image {
@@ -18,13 +19,13 @@
 }
 
 .title {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 700;
 }
 
 .description {
   margin-top: 6px;
-  font-size: 25px;
+  font-size: 17px;
   font-weight: 400;
 }
 
@@ -39,7 +40,7 @@
 }
 
 .skill {
-  font-size: 25px;
+  font-size: 15px;
   font-weight: 400;
   border-radius: 100px;
   background: var(--primary-text-color);
@@ -57,9 +58,13 @@
 .link {
   text-decoration: none;
   color: var(--color-text);
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 600;
   border-radius: 100px;
   background: var(--color-primary);
-  padding: 1px 22px;
+  padding: 1px 15px;
+}
+
+.link:hover {
+  color: var(--yellow);
 }
