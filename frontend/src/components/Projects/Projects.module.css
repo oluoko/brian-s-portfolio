@@ -8,7 +8,7 @@
 }
 
 .title {
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
@@ -26,13 +26,12 @@
 }
 
 @media screen and (max-width: 830px) {
-
   .container {
-    margin-left: 9%;
-    margin-right: 9%;
+    margin-left: 4%;
+    margin-right: 17%;
   }
-  
+
   .title {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
