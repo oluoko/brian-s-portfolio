@@ -1,17 +1,31 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Logo.css";
 
+const texts = ["Webflow Dev", "UI/UX Designer", "Entrepreneur"];
+
 const Logo = () => {
+  const [currentTextIndex, setCurrentTextIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentTextIndex((prevIndex) => (prevIndex + 1) % texts.length);
+    }, 2300);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
-    <a href="/">
-      <div className="dsg-nav_wrapper">
-        <div className="logo-bar">
-          <div className="logo-text">Brian Otieno</div>
+    <a href="/" className="p-2 mt-4">
+      <div className="dsg-nav_wrapper flex flex-col items-center">
+        <div className="logo-bar ">
+          <div className="logo-text text-black text-xl font-bold">
+            Brian Otieno
+          </div>
         </div>
-        <div className="rotate-wrap">
-          <div className="rotating-text">Webflow Developer</div>
-          <div className="rotating-text">UI/UX Designer</div>
-          <div className="rotating-text">Entrepreneur</div>
+        <div className="rotate-wrap ">
+          <div className="rotating-text text-lg text-gray-600">
+            {texts[currentTextIndex]}
+          </div>
         </div>
       </div>
     </a>

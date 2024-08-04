@@ -39,7 +39,7 @@ export const Navbar = () => {
             </li>
             <li>
               <a className={styles.navbarLink} href="#experience">
-                Experience
+                Work
               </a>
             </li>
             <li>
