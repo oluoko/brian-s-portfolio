@@ -180,7 +180,7 @@ const Gallery = () => {
       style={{ backgroundColor: getRandomColor() }}
     >
       <img
-        src={`../images/${images[index]}`}
+        src={`../../../assets/images/images/${images[index]}`}
         alt={`tile-${index}`}
         className="absolute transform -translate-x-1/2 -translate-y-1/2 pointer-events-none"
         style={{
